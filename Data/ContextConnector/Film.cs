@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using NpgsqlTypes;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public partial class Film
     {

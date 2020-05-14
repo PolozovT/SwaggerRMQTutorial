@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Client;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class RMQConnector
     {

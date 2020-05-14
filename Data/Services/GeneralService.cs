@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public abstract class GeneralService<T>
     {

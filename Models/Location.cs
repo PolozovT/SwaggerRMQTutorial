@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public class Location
     {

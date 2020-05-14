@@ -3,7 +3,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     [Table("film", Schema = "public")]
     public class FilmEntity

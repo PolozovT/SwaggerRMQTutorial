@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     [Table("store", Schema = "public")]
     public class StoreEntity

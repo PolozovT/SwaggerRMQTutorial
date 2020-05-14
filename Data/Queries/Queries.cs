@@ -1,4 +1,4 @@
-﻿namespace SwaggerRMQEx.Data
+﻿namespace SwaggerRMQTutorial.Data
 {
     public class Queries
     {

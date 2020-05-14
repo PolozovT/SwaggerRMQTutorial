@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class ActorService : GeneralService<Actor>
     {

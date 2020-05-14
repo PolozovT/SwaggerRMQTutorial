@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class CityService : GeneralService<City>
     {
@@ -14,8 +14,7 @@ namespace SwaggerRMQEx.Data
         public async Task<List<CityEntity>> GetRussianCities()
         {
             Console.WriteLine("[CityService] <GetRussianCities>");
-            var rusCities = await _db.CityList.Where(x => x.CityId == 80).ToListAsync();
-            return rusCities.ToList();
+            return await _db.CityList.Where(x => x.CityId == 80).ToListAsync();
         }
 
         public void ss()

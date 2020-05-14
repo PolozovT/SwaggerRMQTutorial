@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public class Startup
     {

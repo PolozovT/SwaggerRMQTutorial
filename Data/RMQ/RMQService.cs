@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class RMQService
     {

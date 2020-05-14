@@ -1,7 +1,7 @@
 ﻿using NpgsqlTypes;
 using System;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class Film
     {

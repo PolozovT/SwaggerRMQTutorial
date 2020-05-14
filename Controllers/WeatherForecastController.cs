@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace SwaggerRMQEx.Controllers
+namespace SwaggerRMQTutorial.Controllers
 {
     [ApiController]
     [Route("[controller]")]

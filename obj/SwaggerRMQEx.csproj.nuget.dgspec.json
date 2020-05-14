@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj": {}
+    "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQEx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj": {
+    "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQEx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj",
+        "projectUniqueName": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQEx.csproj",
         "projectName": "SwaggerRMQEx",
-        "projectPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj",
+        "projectPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQEx.csproj",
         "packagesPath": "C:\\Users\\timofey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\obj\\",
+        "outputPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

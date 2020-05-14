@@ -2,7 +2,7 @@
 using RabbitMQ.Client;
 using System.Text;
 
-namespace SwaggerRMQEx.Controllers
+namespace SwaggerRMQTutorial.Controllers
 {
     [Route("api/PostLocation")]
     [ApiController]

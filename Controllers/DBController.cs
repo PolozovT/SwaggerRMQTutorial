@@ -1,24 +1,28 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using SwaggerRMQTutorial.Data;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using RabbitMQ.Client;
-using SwaggerRMQEx.Data;
 
-namespace SwaggerRMQEx.Controllers
+namespace SwaggerRMQTutorial.Controllers
 {
-    [Route("api/RussianCities")]
+    [Route("api/[controller]")]
     [ApiController]
     public class DBController : ControllerBase
     {
-        CityService _cityService = new CityService();
+        private readonly CityService _cityService = new CityService();
+        private readonly ActorService _actorService = new ActorService();
 
-        [HttpGet]
+
+        [HttpGet(nameof(GetRussianCities))]
         public async Task<List<CityEntity>> GetRussianCities()
         {
             return await _cityService.GetRussianCities();
+        }
+
+        [HttpGet(nameof(GetActorWithLastName))]
+        public async Task<ActorEntity> GetActorWithLastName(string lastName)
+        {
+            return await _actorService.GetActorsWithLastName(lastName);
         }
     }
 }

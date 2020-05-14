@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public class SampleValues
     {

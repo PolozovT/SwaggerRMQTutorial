@@ -6,7 +6,7 @@ using System;
 using System.Text;
 using System.Threading;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public class Program
     {
@@ -16,13 +16,12 @@ namespace SwaggerRMQEx
             string queueName = "locationQueue";
             var rabbitMqConnection = factory.CreateConnection();
             var rabbitMqChannel = rabbitMqConnection.CreateModel();
-
+            
             rabbitMqChannel.QueueDeclare(
                 queue: queueName,
                 exclusive: false,
                 autoDelete: false,
-                arguments: null
-                );
+                arguments: null);
 
             rabbitMqChannel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 

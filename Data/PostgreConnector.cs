@@ -1,7 +1,7 @@
-﻿using SwaggerRMQEx.Data;
+﻿using SwaggerRMQTutorial.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public class PostgreConnector : DbContext
     {

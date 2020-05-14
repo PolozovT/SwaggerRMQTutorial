@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SwaggerRMQEx.Data
+namespace SwaggerRMQTutorial.Data
 {
     public class FilmService : GeneralService<Film>
     {

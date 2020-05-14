@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public partial class dvdrentalContext : DbContext
     {

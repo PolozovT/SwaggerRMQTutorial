@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SwaggerRMQEx
+namespace SwaggerRMQTutorial
 {
     public partial class Actor
     {

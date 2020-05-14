@@ -1378,11 +1378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj",
-      "projectName": "SwaggerRMQEx",
-      "projectPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\SwaggerRMQEx.csproj",
+      "projectUniqueName": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQTutorial.csproj",
+      "projectName": "SwaggerRMQTutorial",
+      "projectPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\SwaggerRMQTutorial.csproj",
       "packagesPath": "C:\\Users\\timofey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQEx\\SwaggerEx\\obj\\",
+      "outputPath": "C:\\Users\\timofey\\Desktop\\Own\\SwaggerRMQTutorial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
