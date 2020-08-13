@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SwaggerRMQTutorial.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SwaggerRMQTutorial.Data
 {
-    public class CityService : GeneralService<City>
+    public class CityService : GeneralService<City>, ICityService
     {
         public CityService() : base("City")
         { }
@@ -15,11 +16,6 @@ namespace SwaggerRMQTutorial.Data
         {
             Console.WriteLine("[CityService] <GetRussianCities>");
             return await _db.CityList.Where(x => x.CityId == 80).ToListAsync();
-        }
-
-        public void ss()
-        {
-            var a = _db.CityList.Where(x => x.CityId == 1);
         }
     }
 }

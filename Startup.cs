@@ -23,9 +23,7 @@ namespace SwaggerRMQTutorial
         {
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
             services.AddSwaggerGen(x => x.SwaggerDoc("v1", new OpenApiInfo { Title = "My first API", Version = "version 1   " }));
-
             services.AddDbContext<PostgreConnector>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("PostgreConnector")));
 
@@ -37,21 +35,13 @@ namespace SwaggerRMQTutorial
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
                 app.UseSwagger();
-
                 app.UseSwaggerUI(x => x.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1"));
-
             }
 
-            //app.UseMvc();
-
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

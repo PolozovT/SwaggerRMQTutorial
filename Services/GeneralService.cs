@@ -9,7 +9,7 @@ namespace SwaggerRMQTutorial.Data
 
         public string Name { get; private set; }
 
-        protected GeneralService( string name)
+        protected GeneralService(string name)
         {
             if (string.IsNullOrEmpty(name))
             {

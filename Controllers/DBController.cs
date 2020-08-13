@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SwaggerRMQTutorial.Data;
+using SwaggerRMQTutorial.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -9,9 +10,14 @@ namespace SwaggerRMQTutorial.Controllers
     [ApiController]
     public class DBController : ControllerBase
     {
-        private readonly CityService _cityService = new CityService();
-        private readonly ActorService _actorService = new ActorService();
+        private readonly ICityService _cityService;
+        private readonly IActorService _actorService;
 
+        public DBController(ICityService cityService, IActorService actorService)
+        {
+            _cityService = cityService;
+            _actorService = actorService;
+        }
 
         [HttpGet(nameof(GetRussianCities))]
         public async Task<List<CityEntity>> GetRussianCities()
